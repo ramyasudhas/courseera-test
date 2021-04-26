@@ -20,10 +20,13 @@ h1 {
 
 
 #box {
-	
+	    position: relative;
 	width: 100% ;	
     margin-top: 30px;
-  font-family: serif;
+    font-family: serif;
+    font-weight: bold;
+    top: 20px;
+ 
 }
 
 #str {
@@ -72,7 +75,7 @@ h3 {
 
 
 
-@media (min-width: 992px) and (max-width: 1199px)
+@media (min-width: 992px) 
 {
 .col-lg-1, .col-lg-2, .col-lg-3 {
 	
