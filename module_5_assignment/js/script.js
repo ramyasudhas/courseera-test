@@ -104,7 +104,7 @@ function buildAndShowHomeHTML (categories) {
     //var i = 0;
     var name = "" + chosenCategory.name;
     var short_name = chosenCategory.short_name;
-    //console.log(short_name);
+
     html =
       insertProperty(htmlMainPage, "name", name);
     html =
